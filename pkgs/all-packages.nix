@@ -34,6 +34,8 @@ final: prev: let
 
     termapp = callPackage ./tools/wayland/termapp {};
 
+    vesktop = callPackage ./applications/misc/vesktop {};
+
     wlxoverlay = callPackage ./applications/misc/wlxoverlay {};
 
     zoom65-udev-rules = callPackage ./os-specific/linux/zoom65-udev-rules {};
